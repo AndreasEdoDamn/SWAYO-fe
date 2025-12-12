@@ -86,8 +86,8 @@
 
         /* Hero Banner */
         .hero-banner {
-            background: linear-gradient(135deg, rgba(45, 122, 110, 0.9), rgba(26, 89, 80, 0.9)),
-                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400"><rect fill="%23e0e0e0" width="1200" height="400"/></svg>');
+            background: 
+                url('img/bgcategories.png');
             background-size: cover;
             background-position: center;
             border-radius: 20px;
@@ -99,7 +99,10 @@
             color: white;
             overflow: hidden;
             position: relative;
+            width: 100%;
+            height: 100%;
         }
+
 
         .hero-content h2 {
             font-size: 48px;
@@ -251,6 +254,7 @@
             .hero-banner {
                 flex-direction: column;
                 text-align: center;
+                background-image: "bgcategories.png";
             }
 
             .hero-content h2 {
@@ -309,16 +313,10 @@
 
     <!-- Main Content -->
     <div class="container">
-        <h1>Kategori</h1>
+        <h1>Kategori Sampah-Sampah SWAYO</h1>
 
         <!-- Hero Banner -->
         <div class="hero-banner">
-            <div class="hero-content">
-                <h2>Mulai sayangi Lingkungan Dari Sekarang!</h2>
-            </div>
-            <div class="hero-image">
-                🧹
-            </div>
         </div>
 
         <!-- Category Grid -->
@@ -326,85 +324,63 @@
             <!-- Plastik -->
             <div class="category-card">
                 <div class="category-image">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%234A90E2' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='80' fill='white' font-family='Arial'%3E♻️%3C/text%3E%3C/svg%3E" alt="Plastik">
+                    <img src="img/plastik.png" alt="Plastik">
                 </div>
                 <div class="category-content">
                     <h3>Plastik</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sint magnam ab magni voluptates voluptatum nesciunt, vel a qui earum</p>
-                    <a href="plastic-detail.html" class="see-more-btn">See More</a>
+                    <p>Plastik merupakan material sintetis yang banyak digunakan sebagai kemasan dan wadah, sehingga sering menjadi sampah yang sulit terurai. Jenis ini perlu dipilah berdasarkan bentuk dan komponennya agar proses daur ulang dapat berjalan lebih efektif dan mengurangi dampak pencemaran lingkungan.</p>
+                    <a href="plastic-detail.html" class="see-more-btn">Cara Daur Ulang</a>
                 </div>
             </div>
 
             <!-- Kardus -->
             <div class="category-card">
                 <div class="category-image">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23CD9A5B' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='80' fill='white' font-family='Arial'%3E📦%3C/text%3E%3C/svg%3E" alt="Kardus">
+                    <img src="img/kardus.png" alt="Kardus">
                 </div>
                 <div class="category-content">
                     <h3>Kardus</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sint magnam ab magni voluptates voluptatum nesciunt, vel a qui earum</p>
-                    <a href="#" class="see-more-btn">See More</a>
+                    <p>Kardus adalah material berbasis kertas berlapis yang umum digunakan untuk kemasan barang. Sampah kardus dapat didaur ulang dengan optimal apabila dipastikan dalam kondisi kering, bersih, dan bebas dari unsur non-kertas seperti perekat atau plastik pelapis.</p>
+                    <a href="cardboard-detail.html" class="see-more-btn">Cara Daur Ulang</a>
                 </div>
             </div>
 
             <!-- Kertas -->
             <div class="category-card">
                 <div class="category-image">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23F5F5DC' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='80' fill='%23333' font-family='Arial'%3E📄%3C/text%3E%3C/svg%3E" alt="Kertas">
+                    <img src="img/kertas.png" alt="Kertas">
                 </div>
                 <div class="category-content">
                     <h3>Kertas</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sint magnam ab magni voluptates voluptatum nesciunt, vel a qui earum</p>
-                    <a href="#" class="see-more-btn">See More</a>
+                    <p>Kertas mencakup berbagai jenis lembaran berbahan serat selulosa yang mudah didaur ulang. Agar pemrosesan ulang berjalan baik, kertas harus dipisahkan dari jenis yang terkontaminasi minyak, lilin, atau bahan kimia yang dapat merusak kualitas daur ulang.</p>
+                    <a href="paper-detail.html" class="see-more-btn">Cara Daur Ulang</a>
                 </div>
             </div>
 
             <!-- Kaca -->
             <div class="category-card">
                 <div class="category-image">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2387CEEB' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='80' fill='white' font-family='Arial'%3E🍾%3C/text%3E%3C/svg%3E" alt="Kaca">
+                    <img src="img/kaca.png" alt="Kaca">
                 </div>
                 <div class="category-content">
                     <h3>Kaca</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sint magnam ab magni voluptates voluptatum nesciunt, vel a qui earum</p>
-                    <a href="#" class="see-more-btn">See More</a>
+                    <p>Kaca adalah material anorganik yang dapat didaur ulang berulang kali tanpa mengurangi kualitasnya. Pemisahan berdasarkan warna dan kondisi pecahan sangat penting untuk memastikan proses peleburan berlangsung efisien dan menghasilkan bahan kaca baru yang berkualitas.</p>
+                    <a href="glass-detail.html" class="see-more-btn">Cara Daur Ulang</a>
                 </div>
             </div>
 
             <!-- Logam -->
             <div class="category-card">
                 <div class="category-image">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23C0C0C0' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='80' fill='white' font-family='Arial'%3E🥫%3C/text%3E%3C/svg%3E" alt="Logam">
+                    <img src="img/logam.png" alt="Logam">
                 </div>
                 <div class="category-content">
                     <h3>Logam</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sint magnam ab magni voluptates voluptatum nesciunt, vel a qui earum</p>
-                    <a href="#" class="see-more-btn">See More</a>
+                    <p>Logam meliputi aluminium, besi, dan jenis logam lainnya yang sangat bernilai dalam daur ulang karena dapat dilebur kembali untuk menghasilkan produk baru. Proses pemilahan diperlukan agar tiap jenis logam dapat diolah sesuai karakteristik materialnya.</p>
+                    <a href="metal-detail.html" class="see-more-btn">Cara Daur Ulang</a>
                 </div>
             </div>
 
-            <!-- Sampah Lain -->
-            <div class="category-card">
-                <div class="category-image">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%238B4513' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='80' fill='white' font-family='Arial'%3E🗑️%3C/text%3E%3C/svg%3E" alt="Sampah Lain">
-                </div>
-                <div class="category-content">
-                    <h3>Sampah Lain</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sint magnam ab magni voluptates voluptatum nesciunt, vel a qui earum</p>
-                    <a href="other-waste-detail.html" class="see-more-btn">See More</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Carousel Navigation -->
-        <div class="carousel-nav">
-            <div class="carousel-btn">←</div>
-            <div class="carousel-dots">
-                <div class="dot active"></div>
-                <div class="dot"></div>
-            </div>
-            <div class="carousel-btn">→</div>
-        </div>
     </div>
 
     <script>
